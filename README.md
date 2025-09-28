@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/github/last-commit/MarciaCondarco/farmacia?style=flat-square" />
   <img src="https://img.shields.io/github/issues/MarciaCondarco/farmacia?style=flat-square" />
   <img src="https://img.shields.io/github/issues-pr/MarciaCondarco/farmacia?style=flat-square" />
-   <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen" alt="Status:andamento">
+   <img src="https://img.shields.io/badge/status-andamento-brightgreen" alt="Status: andamento">
 </div>
 
 
@@ -60,12 +60,6 @@ Além de servir como um simulador funcional, o projeto oferece uma base prática
 
 <br />
 
-Um **Diagrama de Classes** é um modelo visual usado na programação orientada a objetos para representar a estrutura de um sistema. Ele exibe classes, atributos, métodos e os relacionamentos entre elas, como associações, heranças e dependências.
-
-Esse diagrama ajuda a planejar e entender a arquitetura do sistema, mostrando como os componentes interagem e se conectam. É amplamente utilizado nas fases de design e documentação de projetos.
-
-Abaixo, você confere o Diagrama de Classes do Projeto Conta Bancária:
-
 ```mermaid
 classDiagram
 class Produto {
@@ -77,26 +71,33 @@ class Produto {
   + get valor() float
   + get categoria() String
   + get quantidade() int
-  + set numero(numero: int) void
-  + set agencia(agencia: int) void
-  + set tipo(tipo: int) void
-  + set titular(titular: String) void
-  + set saldo(saldo: float) void
-  + sacar(valor: float) boolean
-  + depositar(valor: float) void
+  + set nome(nome: String) void
+  + set valor(valor: float) void
+  + set categoria(categoria: String) void
+  + set quantidade(quantidade: int) void
   + visualizar() void
 }
 class Medicamento {
   - nome: String
-  + get limite() float
-  + set limite(limite: float) void
-  + sacar(valor: float) boolean
+  - valor: float
+  + get nome() String
+  + get valor() float
+  + set nome(nome: String) void
+  + set valor(valor: float) void
   + visualizar() void
 }
 class Cosmetico {
   - nome: String
-  + get aniversario() int
-  + set aniversario(aniversario: int) void
+  - categoria: String
+  - marca: String
+  - valor: float
+  + get nome() String
+  + get categoria() String
+  + get marca() String
+  + get valor() float
+  + set nome(nome: String) void
+  + set categoria(categoria: String) void
+  + set marca(marca: String) void
   + visualizar() void
 }
 Medicamento --> Produto
@@ -110,9 +111,8 @@ Cosmetico --> Produto
 <br />
 
 <div align="center">
-   <img src="https://i.imgur.com/MFK9yXB.png" title="source: imgur.com" width="90%"/>
+   <img src="https://i.imgur.com/oftzaBW.jpeg" title="source:menu do sistema farmacia DEVAS" width="50%"/>
 </div>
-
 
 <br />
 
