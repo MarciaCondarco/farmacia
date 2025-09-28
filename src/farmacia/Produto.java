@@ -10,11 +10,11 @@ public class Produto {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		int opcao;
+		int opcao, escolha;
 		
 		while(true) {
 			
-			System.out.println(CoresFarmacia.TEXT_GREEN  + 
+			System.out.println(CoresFarmacia.TEXT_GREEN  + CoresFarmacia.ANSI_BLACK_BACKGROUND +
 					"***********************************");
 			System.out.println("			      	   ");
 			System.out.println(CoresFarmacia.TEXT_GREEN + "     Farmacia DEVAS	 	   ");
@@ -24,16 +24,24 @@ public class Produto {
 			System.out.println(CoresFarmacia.TEXT_GREEN + "	3 - Apagar produto                ");
 			System.out.println(CoresFarmacia.TEXT_GREEN + "	4 - Sair                          ");
 			System.out.println("			      	   ");
-			System.out.println(CoresFarmacia.TEXT_GREEN + "***********************************");
+			System.out.println(CoresFarmacia.TEXT_GREEN + "***********************************" );
 			
-			System.out.println("Qual opção deseja? ");
+			System.out.println("Qual opção deseja? 		   "+ CoresFarmacia.TEXT_RESET);
 			opcao = leia.nextInt();
-			
-			
 			
 			switch(opcao) {
 			case 1:
-				System.out.println("adicionando produto");
+				System.out.println("Qual categoria de produto deseja adicionar?\n1-medicamento | 2-cosmetico");
+				escolha = leia.nextInt();
+				if(escolha == 1) {
+					System.out.println("medicamento");
+				}
+				else if(escolha == 2) {
+					System.out.println("cosmetico");					
+				}
+				else {					
+					System.out.println("opção inválida");					
+				}
 				break;
 			case 2:
 				System.out.println("Listando o produto");
