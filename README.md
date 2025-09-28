@@ -49,10 +49,10 @@ Além de servir como um simulador funcional, o projeto oferece uma base prática
 
 <br />
 
-1. **Adicionar produto:** Cria uma nova conta bancária especificando nome do titular, número da agência, saldo inicial e propriedades específicas conforme o tipo da conta. O número da conta é gerado automaticamente.
-2. **Listar os Produtos:** Lista todas as contas cadastradas no sistema.
-3. **Editar Produto:** Encontra uma conta pelo número.
-4. **Excluir Produto:** Encontra uma ou mais contas associadas ao nome do titular.
+1. **Adicionar produto:** Cria um novo produto especificando nome, marca, valor, quantidada e categoria.
+2. **Listar os Produtos:** Lista os produtos cadastrados no sistema.
+3. **Editar Produto:** Edita as características do produto.
+4. **Excluir Produto:** Exclui o produto.
 
 <br />
 
