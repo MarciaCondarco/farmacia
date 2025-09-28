@@ -3,7 +3,7 @@
 <br />
 
 <div align="center">
-	<img src="https://static.vecteezy.com/ti/vetor-gratis/p1/47783613-uma-desenho-animado-ilustracao-representando-a-interior-do-uma-moderno-farmacia-com-prateleiras-preenchidas-com-varios-medicamentos-uma-contador-e-uma-esperando-area-gratis-vetor.jpg" title="source: imgur.com" width="50%"/>
+	<img src="https://i.imgur.com/dx5RQRh.png" title="source: imgur.com" width="50%"/>
 </div>
 
 <br />
