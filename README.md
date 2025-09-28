@@ -133,10 +133,10 @@ Para executar os códigos localmente, você precisará de:
 
 ### 6.1. Importando o Projeto
 
-1. Clone o repositório do Projeto [Conta Bancária](https://github.com/MarciaCondarco/conta_bancaria.git) dentro da pasta do *Workspace* do Eclipse/STS
+1. Clone o repositório do Projeto [farmacia](https://github.com/MarciaCondarco/farmacia.git) dentro da pasta do *Workspace* do Eclipse/STS
 
 ```bash
-git clone https://github.com/MarciaCondarco/conta_bancaria.git
+git clone https://github.com/MarciaCondarco/farmacia.git
 ```
 
 2. **Abra o Eclipse/STS** e selecione a pasta do *Workspace* onde você clonou o repositório do projeto
@@ -144,13 +144,13 @@ git clone https://github.com/MarciaCondarco/conta_bancaria.git
 4. Na janela **Import**, selecione a opção: **General 🡲 Existing Projects into Workspace** e clique no botão **Next**
 5. Na janela **Import Projects**, no item **Select root directory**, clique no botão **Browse...** e selecione a pasta do Workspace onde você clonou o repositório do projeto
 6. O Eclipse/STS reconhecerá automaticamente o projeto
-7. Marque o Projeto Conta Bancária no item **Projects** e clique no botão **Finish** para concluir a importação
+7. Marque o Projeto Farmacia no item **Projects** e clique no botão **Finish** para concluir a importação
 
 <br />
 
 ### 6.2. Executando o projeto
 
-1. Na guia **Package Explorer**, localize o Projeto Conta Bancária
+1. Na guia **Package Explorer**, localize o Projeto Farmacia
 2. Abra a **Classe Menu**
 3. Clique no botão **Run** <img src="https://i.imgur.com/MtBQjUp.png" title="source: imgur.com" width="3%"/> para executar a aplicação
 4. Caso seja perguntado qual é o tipo do projeto, selecione a opção **Java Application**
